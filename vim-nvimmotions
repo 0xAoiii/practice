@@ -1,0 +1,86 @@
+Vim (Neovim)! It may look intimidating at first, but once you get the hang of it, you'll navigate and edit text like a pro. Vim operates in three modes:
+
+Normal mode – Where you do most of your work (navigate, delete, copy, etc.).
+
+Insert mode – Where you actually type text.
+
+Visual mode – Where you select text for editing.
+
+
+1. Insert Mode, you're free to type your heart out. Here’s how to get there:
+
+i – Start typing where the cursor is.
+
+I – Start typing at the beginning of the line.
+
+a – Start typing just after the cursor.
+
+A – Start typing at the end of the line.
+
+o – Open a new line below and start typing.
+
+O – Open a new line above and start typing.
+
+These are your "insert" commands. Easy, right?
+
+2. Normal Mode, you're in control of your text. Here’s how to move around:
+
+Arrow keys – Move up, down, left, or right. (Yes, they work in Normal mode too.)
+
+w – Jump forward by one word.
+
+b – Jump backward by one word.
+
+gg – Go to the top of the file.
+
+Shift + G – Go to the bottom of the file.
+
+Undo and Redo:
+u – Undo the last change.
+
+Ctrl + r – Redo what you just undid.
+
+Numbers:
+Combine numbers with motions. For example, 5w will move you forward 5 words. No need to keep counting!
+
+3. Visual Mode, want to highlight text? Enter Visual mode:
+
+Press v – Select text one character at a time.
+
+Press V – Select whole lines.
+
+Press Ctrl + v – Select a block of text (good for columns).
+
+Manipulating Selections:
+d – Delete the selected text (press it twice to delete the entire line).
+
+y – Copy the selected text (press it twice to copy the whole line).
+
+p – Paste your copied/deleted text.
+
+4. Editing Text, here’s how to do it without breaking a sweat:
+
+c – Change text (deletes the selection and puts you in Insert mode).
+
+r – Replace a single character. For example, rX replaces the current character with "X."
+
+5. More Helpful Shortcuts, to keep things moving, here are some more shortcuts:
+
+d – Delete text (use with a motion or in Visual mode).
+
+y – Copy text.
+
+p – Paste text.
+
+x – Delete the character under the cursor.
+
+. – Repeat the last action. Handy, right?
+
+Scrolling:
+Ctrl + f – Scroll down one page.
+
+Ctrl + b – Scroll up one page.
+
+6. The Cheat Sheet
+Don’t forget the Vim Cheat Sheet! It’s your best friend when you forget a command (we’ve all been there). Find it as an SVG file in the folder for quick reference.
+
